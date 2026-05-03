@@ -1,0 +1,9 @@
+# Local test output
+*.backup-*
+*.log
+
+# OS/editor files
+Thumbs.db
+Desktop.ini
+.vscode/
+
