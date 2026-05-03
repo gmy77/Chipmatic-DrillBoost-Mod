@@ -32,10 +32,39 @@ Questa repository non contiene file originali del gioco. Include solo uno script
 
 I costi non vengono mai portati sotto `1`, per evitare valori strani o oggetti gratuiti.
 
+## Mod Manager GUI (consigliato)
+
+Il progetto include **chipmatic_mod.exe**, un'interfaccia grafica Win32 che permette di modificare i parametri direttamente senza usare PowerShell.
+
+### Utilizzo del Mod Manager
+
+1. Chiudi Chipmatic.
+2. Avvia `chipmatic_mod.exe`.
+3. Imposta i valori desiderati nei campi.
+4. Clicca **APPLICA TUTTO**.
+5. Clicca **RESET SALVATAGGIO** (necessario ad ogni modifica).
+6. Avvia Chipmatic normalmente con una nuova partita.
+
+> **Nota:** Ad ogni modifica dei parametri, ricordatevi di cliccare su **APPLICA TUTTO** e **RESET SALVATAGGIO**.
+
+Per compilare il sorgente (`src/chipmatic_mod.c`) su Windows con MinGW:
+
+```bat
+build.bat
+```
+
+Oppure con MSVC (Visual Studio 2019+):
+
+```bat
+_build_msvc.bat
+```
+
+---
+
 ## Requisiti
 
 - Chipmatic installato da Steam su Windows
-- PowerShell
+- PowerShell (per lo script alternativo) o solo Windows (per il Mod Manager .exe)
 - Una copia legittima del gioco
 
 Percorso predefinito supportato:

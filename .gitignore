@@ -2,6 +2,13 @@
 *.backup-*
 *.log
 
+# Compiled intermediate files
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
 # OS/editor files
 Thumbs.db
 Desktop.ini
